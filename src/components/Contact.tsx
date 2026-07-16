@@ -16,7 +16,7 @@ const CONTACT_INFO = [
   {
     icon: MapPin,
     label: 'Head Office',
-    value: 'JGT House 887, Pocket-6, Sector-2, Rohini, Delhi, India- 110085',
+    value: 'JGT House 887, Pocket-6, Sector-2, Rohini, New Delhi, India- 110085',
   },
   {
     icon: Phone,
