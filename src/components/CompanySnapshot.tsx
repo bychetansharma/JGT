@@ -3,7 +3,7 @@ import { Reveal } from './Reveal';
 const STATS = [
   { value: '2018', label: 'Established', sub: 'Delhi, India' },
   { value: '200+', label: 'Transport Partners', sub: 'Nationwide network' },
-  { value: '3', label: 'Countries', sub: 'India · Nepal · Bhutan' },
+  { value: '100+', label: 'Branches', sub: 'Across India' },
   { value: '5', label: 'Industries', sub: 'Infrastructure focused' },
 ];
 
