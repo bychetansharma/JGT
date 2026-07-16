@@ -1,4 +1,5 @@
 import { ArrowRight, Download } from 'lucide-react';
+import truckImg from '../assets/truck.jpeg';
 
 export function Hero() {
   return (
@@ -6,13 +7,16 @@ export function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/26492746/pexels-photo-26492746.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&fit=crop"
-          alt="Heavy transport truck carrying cargo on a highway"
-          className="h-full w-full object-cover"
+          src={truckImg}
+          alt="Heavy haul truck transporting oversized industrial cargo at night"
+          className="h-full w-full object-cover object-center"
           loading="eager"
           fetchPriority="high"
         />
-        <div className="absolute inset-0 hero-overlay" />
+        {/* Lighter overlay — the image is already dark so we only need subtle darkening */}
+        <div className="absolute inset-0 bg-navy-950/50" />
+        {/* Bottom gradient to ensure text legibility */}
+        <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-navy-950/80 via-navy-950/30 to-transparent" />
       </div>
 
       {/* Content */}
