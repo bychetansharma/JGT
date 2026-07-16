@@ -91,13 +91,13 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <a
-            href="tel:+919999999999"
+            href="tel:+919891963109"
             className={`flex items-center gap-2 text-[13px] font-medium transition-colors duration-300 ${
               scrolled ? 'text-navy-800' : 'text-white/90'
             }`}
           >
             <Phone className="h-4 w-4" />
-            +91 99999 99999
+            +91 9891963109
           </a>
           <a href="#contact" className="btn-primary">
             Request a Quote
@@ -141,11 +141,11 @@ export function Navbar() {
             ))}
             <li className="mt-3 flex flex-col gap-3 px-1">
               <a
-                href="tel:+919999999999"
+                href="tel:+919891963109"
                 className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-navy-800"
               >
                 <Phone className="h-4 w-4" />
-                +91 99999 99999
+                +91 9891963109
               </a>
               <a href="#contact" onClick={close} className="btn-primary w-full">
                 Request a Quote
