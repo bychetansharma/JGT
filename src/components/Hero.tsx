@@ -1,4 +1,5 @@
 import { ArrowRight, Download } from 'lucide-react';
+import truck from "../assets/truck.jpg";
 
 export function Hero() {
   return (
@@ -6,7 +7,7 @@ export function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src={src:assets:truck}
+          src={truck}
           alt="Heavy transport truck carrying cargo on a highway"
           className="h-full w-full object-cover"
           loading="eager"
