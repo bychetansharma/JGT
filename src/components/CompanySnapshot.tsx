@@ -3,8 +3,8 @@ import { Reveal } from './Reveal';
 const STATS = [
   { value: '2018', label: 'Established', sub: 'Delhi, India' },
   { value: '200+', label: 'Transport Partners', sub: 'Nationwide network' },
-  { value: '100+', label: 'Branches', sub: 'Across India' },
-  { value: '5', label: 'Industries', sub: 'Infrastructure focused' },
+  { value: '100+', label: 'Vehicles', sub: 'Active Right now' },
+  { value: '35+', label: 'Branches', sub: 'Across India' },
 ];
 
 export function CompanySnapshot() {
@@ -15,10 +15,10 @@ export function CompanySnapshot() {
           <Reveal>
             <p className="section-label">Company Snapshot</p>
             <h2 className="heading-2 mt-4">
-              An asset-light model built on trusted relationships
+              A hybrid asset-light model built on trusted relationships
             </h2>
             <p className="body-lg mt-6">
-              Rather than operating an owned fleet, we coordinate transportation through a vetted
+              We operate through our own fleet and also coordinate transportation through a vetted
               network of 200+ transport partners. This structure gives us the flexibility to
               mobilise the right vehicles for each project — without the constraints of fixed
               assets.
@@ -26,7 +26,7 @@ export function CompanySnapshot() {
             <p className="body-base mt-4">
               Since 2018, we have supported power transmission, renewable energy, and heavy
               engineering projects across challenging geographies, including remote project
-              locations in Mizoram and Telangana.
+              locations across India.
             </p>
           </Reveal>
 
