@@ -98,7 +98,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:enquiries@jhojhugoldentransport.com"
+                  href="mailto:info@jhojhugoldentransport.com"
                   className="flex items-center gap-3 text-sm text-white/60 transition-colors hover:text-white"
                 >
                   <Mail className="h-4 w-4 shrink-0 text-gold-500" />
