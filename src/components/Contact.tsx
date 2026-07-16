@@ -16,19 +16,19 @@ const CONTACT_INFO = [
   {
     icon: MapPin,
     label: 'Head Office',
-    value: '[Office Address], Delhi, India',
+    value: 'JGT House 887, Pocket-6, Sector-2, Rohini, Delhi, India- 110085',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 99999 99999',
-    href: 'tel:+919999999999',
+    value: '+91 9891963109',
+    href: 'tel:+919891963109',
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'enquiries@jhojhugoldentransport.com',
-    href: 'mailto:enquiries@jhojhugoldentransport.com',
+    value: 'info@jhojhugoldentransport.com',
+    href: 'mailto:info@jhojhugoldentransport.com',
   },
 ];
 
@@ -238,16 +238,17 @@ export function Contact() {
                 </ul>
               </div>
 
-              <div className="overflow-hidden rounded-sm border border-navy-100 bg-navy-100">
-                <div className="flex aspect-[4/3] items-center justify-center bg-navy-50 p-8">
-                  <div className="text-center">
-                    <MapPin className="mx-auto h-10 w-10 text-navy-300" />
-                    <p className="mt-3 text-sm font-medium text-grey-500">
-                      Google Maps location
-                    </p>
-                    <p className="mt-1 text-xs text-grey-400">Delhi, India</p>
-                  </div>
-                </div>
+              <div className="overflow-hidden rounded-sm border border-navy-100">
+                <iframe
+                  src="YOUR_GOOGLE_MAPS_EMBED_LINK"
+                  width="100%"
+                  height="320"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  allowFullScreen
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Jhojhu Golden Transport Location"
+                />
               </div>
 
               <a
