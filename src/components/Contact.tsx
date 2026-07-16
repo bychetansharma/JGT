@@ -240,7 +240,7 @@ export function Contact() {
 
               <div className="overflow-hidden rounded-sm border border-navy-100">
                 <iframe
-                  src="YOUR_GOOGLE_MAPS_EMBED_LINK"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448196.5258803423!2d76.7635769allowfullscreen="
                   width="100%"
                   height="320"
                   style={{ border: 0 }}
