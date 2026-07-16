@@ -41,7 +41,7 @@ export function Footer() {
               Asset-light project transportation specialists supporting infrastructure and
               industrial projects across India, Nepal, and Bhutan.
             </p>
-            <p className="mt-4 text-xs text-white/40">Established 2018 · Delhi, India</p>
+            <p className="mt-4 text-xs text-white/40">Established 2018 · New Delhi, India</p>
           </div>
 
           {/* Navigation */}
@@ -85,15 +85,15 @@ export function Footer() {
             <ul className="mt-5 space-y-4">
               <li className="flex items-start gap-3 text-sm text-white/60">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold-500" />
-                [Office Address], Delhi, India
+                JGT House 887, Pocket-6, Sector-2, Rohini, New Delhi, India- 110085
               </li>
               <li>
                 <a
-                  href="tel:+919999999999"
+                  href="tel:+919891963109"
                   className="flex items-center gap-3 text-sm text-white/60 transition-colors hover:text-white"
                 >
                   <Phone className="h-4 w-4 shrink-0 text-gold-500" />
-                  +91 99999 99999
+                  +91 9891963109
                 </a>
               </li>
               <li>
@@ -102,7 +102,7 @@ export function Footer() {
                   className="flex items-center gap-3 text-sm text-white/60 transition-colors hover:text-white"
                 >
                   <Mail className="h-4 w-4 shrink-0 text-gold-500" />
-                  enquiries@jhojhugoldentransport.com
+                  info@jhojhugoldentransport.com
                 </a>
               </li>
             </ul>
