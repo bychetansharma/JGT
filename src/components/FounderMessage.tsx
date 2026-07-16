@@ -16,7 +16,7 @@ export function FounderMessage() {
               />
               <div className="absolute inset-0 bg-navy-950/20" />
               <div className="absolute bottom-0 left-0 right-0 bg-navy-950/80 p-5 backdrop-blur-sm">
-                <p className="font-heading text-base font-bold text-white">[Founder Name]</p>
+                <p className="font-heading text-base font-bold text-white">Amresh Kumar Sharma</p>
                 <p className="text-sm text-gold-400">Founder &amp; Proprietor</p>
               </div>
             </div>
