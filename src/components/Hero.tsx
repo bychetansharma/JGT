@@ -6,7 +6,7 @@ export function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/26492746/pexels-photo-26492746.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&fit=crop"
+          src={src/assets/truck}
           alt="Heavy transport truck carrying cargo on a highway"
           className="h-full w-full object-cover"
           loading="eager"
