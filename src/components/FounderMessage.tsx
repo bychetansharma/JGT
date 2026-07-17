@@ -1,5 +1,6 @@
 import { Quote } from 'lucide-react';
 import { Reveal } from './Reveal';
+import founderImg from '../assets/founder.jpeg';
 
 export function FounderMessage() {
   return (
@@ -9,8 +10,8 @@ export function FounderMessage() {
           <Reveal>
             <div className="relative mx-auto max-w-sm overflow-hidden rounded-sm">
               <img
-                src="https://images.pexels.com/photos/31851560/pexels-photo-31851560.jpeg?auto=compress&cs=tinysrgb&w=700&h=850&fit=crop"
-                alt="Founder of Jhojhu Golden Transport"
+                src={founderImg}
+                alt="Amresh Kumar Sharma, Founder of Jhojhu Golden Transport"
                 loading="lazy"
                 className="aspect-[4/5] w-full object-cover"
               />
