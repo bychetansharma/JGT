@@ -24,7 +24,7 @@ export function Hero() {
         <div className="container-x w-full">
           <div className="max-w-3xl">
             <p className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-gold-400 animate-fade-up">
-              Project Transportation Specialists · Est. 2018
+              JHOJHU GOLDEN TRANSPORT
             </p>
             <h1
               className="font-heading text-4xl font-extrabold leading-[1.08] text-white text-balance sm:text-5xl lg:text-[3.75rem] animate-fade-up"
