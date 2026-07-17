@@ -48,6 +48,37 @@ vercel env add VITE_SUPABASE_URL
 vercel env add VITE_SUPABASE_ANON_KEY
 ```
 
+## Deploy to Netlify
+
+A `netlify.toml` is included with the build command, publish directory, and SPA redirect pre-configured.
+
+### Option A — Netlify Dashboard (import from GitHub)
+
+1. Push this repository to GitHub.
+2. Go to [app.netlify.com/start](https://app.netlify.com/start) and import the repository.
+3. Netlify auto-detects the build settings from `netlify.toml`:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+4. Under **Site settings → Environment variables**, add:
+   - `VITE_SUPABASE_URL`
+   - `VITE_SUPABASE_ANON_KEY`
+5. Click **Deploy site**.
+
+### Option B — Netlify CLI
+
+```bash
+npm i -g netlify-cli
+netlify deploy              # preview deploy
+netlify deploy --prod       # production deploy
+```
+
+Set the environment variables in the Netlify dashboard or via:
+
+```bash
+netlify env:set VITE_SUPABASE_URL your-supabase-url
+netlify env:set VITE_SUPABASE_ANON_KEY your-supabase-anon-key
+```
+
 ## Environment Variables
 
 | Variable | Description | Required |
