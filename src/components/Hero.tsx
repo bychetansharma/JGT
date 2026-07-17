@@ -50,7 +50,8 @@ export function Hero() {
               </a>
               <a
                 href="/Jhojhu_Golden_Transport_Capability_Profile.pdf"
-                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-sm border border-white/30 bg-white/5 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur-sm transition-all duration-300 hover:border-white/60 hover:bg-white/10"
               >
                 <Download className="h-4 w-4" />

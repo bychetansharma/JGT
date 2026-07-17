@@ -252,7 +252,9 @@ export function Contact() {
               </div>
 
               <a
-                href="#contact"
+                href="/Jhojhu_Golden_Transport_Capability_Profile.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 rounded-sm border border-navy-200 bg-white px-6 py-4 text-sm font-semibold text-navy-800 transition-all duration-300 hover:border-navy-800 hover:bg-navy-50"
               >
                 <Download className="h-4 w-4" />

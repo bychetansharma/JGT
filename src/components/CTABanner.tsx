@@ -22,7 +22,9 @@ export function CTABanner() {
                 <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
               <a
-                href="#contact"
+                href="/Jhojhu_Golden_Transport_Capability_Profile.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-sm border border-white/25 px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:border-white/50 hover:bg-white/5"
               >
                 <Download className="h-4 w-4" />
